@@ -13,9 +13,26 @@ ModelImporter:
     2100010: Blacktop_New_001
     2100012: Fencing_Picket_Concave_001
     2100014: __Cladding_Stucco_White_4_001
+    2100016: material_002
+    2100018: Grass_Dark_Green_002
+    2100020: Color_M00_002
+    2100022: Polished_Concrete_Old_002
+    2100024: Wood_Fence_with_Lattice_002
+    2100026: Blacktop_New_002
+    2100028: Fencing_Picket_Concave_002
+    2100030: __Cladding_Stucco_White_4_002
+    2100032: material
+    2100034: Grass_Dark_Green
+    2100036: Color_M00
+    2100038: Polished_Concrete_Old
+    2100040: Wood_Fence_with_Lattice
+    2100042: Blacktop_New
+    2100044: Fencing_Picket_Concave
+    2100046: __Cladding_Stucco_White_4
     2300000: //RootNode
     3300000: //RootNode
     4300000: SketchUp_053
+    4300002: SketchUp
     6400000: //RootNode
     7400000: Default Take
     9500000: //RootNode
@@ -23,8 +40,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blacktop_New
+    second: {fileID: 2100000, guid: 20bb8b68f6e37034c991e432a753a58f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Blacktop_New_001
     second: {fileID: 2100000, guid: 20bb8b68f6e37034c991e432a753a58f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_Dark_Green
+    second: {fileID: 2100000, guid: 1c9dfef45190cf244b3efcb8e5d86659, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -35,6 +62,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Polished_Concrete_Old_001
     second: {fileID: 2100000, guid: c7a38e150eff7d44987d4139d8b47792, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Fence_with_Lattice
+    second: {fileID: 2100000, guid: 3b99359b61462164bac36ea56fd17d30, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
