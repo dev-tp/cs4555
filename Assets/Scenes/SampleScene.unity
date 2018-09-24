@@ -272,6 +272,106 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1177010151
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 97.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 86.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.701682
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.087421
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.08742098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.701682
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885472971594916, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_Name
+      value: Health Kit A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1325282078
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 120.65072
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 93.9491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885472971594916, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_Name
+      value: Health Kit C
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1618837105
 Prefab:
   m_ObjectHideFlags: 0
@@ -376,6 +476,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1718772846
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 58.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 8.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.6982416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.11161854
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.11161851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6982416
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885472971594916, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_Name
+      value: Health Kit B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453098968745574, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.165
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00a35b8317cac1440ba268eb7d091dbe, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1925836937
 GameObject:
   m_ObjectHideFlags: 0
