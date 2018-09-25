@@ -7,12 +7,11 @@ public class ReactiveTarget : MonoBehaviour
     {
         WanderingAI behavior = GetComponent<WanderingAI>();
 
-        if (behavior != null)
+        if (behavior != null && behavior.hitCount++ > 0)
         {
             behavior.SetAlive(false);
+            StartCoroutine(Die());
         }
-
-        StartCoroutine(Die());
     }
 
     private IEnumerator Die()

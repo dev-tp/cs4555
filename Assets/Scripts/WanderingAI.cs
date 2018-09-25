@@ -8,6 +8,7 @@ public class WanderingAI : MonoBehaviour
     public float obstacleRange = 5.0f;
     public float speed = 3.0f;
     public GameObject fireballPrefab;
+    public int hitCount = 0;
 
     void Start()
     {
