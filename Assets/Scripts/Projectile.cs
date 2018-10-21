@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class HunterKillerDrone : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
     public float speed = 10.0f;
     public int damage = 10;
