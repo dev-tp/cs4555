@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public float speed = 10.0f;
-    public int damage = 10;
+    public int damage = 40;
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -14,7 +14,7 @@ public class Projectile : MonoBehaviour
             playerHealth.Damage(damage);
         }
 
-        Destroy(this.gameObject);
+        Destroy(gameObject);
     }
 
     private void Update()

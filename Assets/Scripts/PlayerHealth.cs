@@ -11,15 +11,18 @@ public class PlayerHealth : MonoBehaviour
     public Text gameOverMessage;
     public Text healthStatus;
 
-    private void OnGUI()
-    {
-        healthStatus.text = "Health: " + health;
-    }
+    // private void OnGUI()
+    // {
+    //     healthStatus.text = "Health: " + health;
+    // }
 
     private void Start()
     {
         firstPersonController = GetComponent<FirstPersonController>();
-        rayShooter = GetComponent<RayShooter>();
+        rayShooter = transform.Find("Character").GetComponent<RayShooter>();
+        gameOverMessage.enabled = false;
+
+        healthStatus.text = "Health: " + health;
     }
 
     public void Damage(int damage)
@@ -35,10 +38,15 @@ public class PlayerHealth : MonoBehaviour
 
             gameOverMessage.enabled = true;
         }
+        else
+        {
+            healthStatus.text = "Health: " + health;
+        }
     }
 
     public void Heal(int health)
     {
         this.health += health;
+        healthStatus.text = "Health: " + this.health;
     }
 }
