@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
 
-public class Sentinel : MonoBehaviour
+public class Sentinel : MonoBehaviour, IReactiveTarget
 {
-    private float fireRate = 0.8f;
+    private Animator animator;
     private float elapsedTime;
+    private float fireRate = 0.8f;
     private GameObject player;
     private PlayerHealth playerHealth;
 
@@ -12,6 +13,7 @@ public class Sentinel : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerHealth = player.GetComponent<PlayerHealth>();
     }
@@ -50,5 +52,19 @@ public class Sentinel : MonoBehaviour
         yield return new WaitForSeconds(4);
 
         Destroy(projectile);
+    }
+
+    private IEnumerator Die()
+    {
+        animator.SetTrigger("Die");
+
+        yield return new WaitForSeconds(3.5f);
+
+        Destroy(gameObject);
+    }
+
+    public void ReactToHit()
+    {
+        StartCoroutine(Die());
     }
 }

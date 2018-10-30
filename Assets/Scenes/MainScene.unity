@@ -101496,6 +101496,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1792358249221988, guid: 6701ba2a1f63977429bdd9e8f046c3af, type: 2}
+--- !u!64 &2083011064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2083011062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300002, guid: fe46fee0415abaf418f4b51dd3ae5cf3, type: 3}
 --- !u!1 &2087084406
 GameObject:
   m_ObjectHideFlags: 0
