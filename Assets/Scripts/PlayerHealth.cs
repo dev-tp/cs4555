@@ -49,4 +49,12 @@ public class PlayerHealth : MonoBehaviour
         this.health += health;
         healthStatus.text = "Health: " + this.health;
     }
+
+    public void Reset()
+    {
+        firstPersonController.dead = false;
+        gameOverMessage.enabled = false;
+        health = 100;
+        rayShooter.dead = false;
+    }
 }
