@@ -10343,6 +10343,16 @@ Prefab:
       propertyPath: m_Height
       value: 1.8
       objectReference: {fileID: 0}
+    - target: {fileID: 20591289757527700, guid: 085330e9cc351da44bd4c41230b0db5d,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 311
+      objectReference: {fileID: 0}
+    - target: {fileID: 20591289757527700, guid: 085330e9cc351da44bd4c41230b0db5d,
+        type: 2}
+      propertyPath: m_Depth
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 085330e9cc351da44bd4c41230b0db5d, type: 2}
   m_IsPrefabAsset: 0
