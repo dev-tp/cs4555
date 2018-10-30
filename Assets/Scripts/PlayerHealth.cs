@@ -56,5 +56,7 @@ public class PlayerHealth : MonoBehaviour
         gameOverMessage.enabled = false;
         health = 100;
         rayShooter.dead = false;
+
+        healthStatus.text = "Health: " + health;
     }
 }
