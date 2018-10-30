@@ -5,6 +5,8 @@ public class RayShooter : MonoBehaviour
 {
     private Camera _camera;
 
+    public bool dead;
+
     void Start()
     {
         _camera = GetComponent<Camera>();
@@ -15,11 +17,14 @@ public class RayShooter : MonoBehaviour
 
     void OnGUI()
     {
-        int size = 48;
-        float posX = _camera.pixelWidth / 2 - size / 4;
-        float posY = _camera.pixelHeight / 2 - size / 2;
+        if (!dead)
+        {
+            int size = 48;
+            float posX = _camera.pixelWidth / 2 - size / 4;
+            float posY = _camera.pixelHeight / 2 - size / 2;
 
-        GUI.Label(new Rect(posX, posY, size, size), "o");
+            GUI.Label(new Rect(posX, posY, size, size), "o");
+        }
     }
 
     void Update()
