@@ -55,6 +55,7 @@ public class RayShooter : MonoBehaviour
     private IEnumerator SphereIndicator(Vector3 position)
     {
         GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        sphere.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
         sphere.transform.position = position;
 
         yield return new WaitForSeconds(1);
